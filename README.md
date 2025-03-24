@@ -58,8 +58,3 @@ curl -X POST http://localhost:8080/auth
 curl -X POST "http://localhost:8080/auth?expired=true"
 ```
 
-## Security Notes
-
-- This implementation is for demonstration/development purposes
-- The private keys are stored unencrypted in SQLite (not recommended for production)
-- Consider implementing proper key encryption and secure storage in production environments
